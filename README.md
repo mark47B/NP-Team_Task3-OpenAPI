@@ -42,7 +42,7 @@
 - Открываем http://0.0.0.0:8000/docs
 
 Пример тестовых данных
-![Пример API]([https://github.com/jon/coolproject/raw/master/image/image.png](https://github.com/mark47B/NP-Team_Task3-OpenAPI/blob/main/README_IMAGES/API_Example.png)https://github.com/mark47B/NP-Team_Task3-OpenAPI/blob/main/README_IMAGES/API_Example.png)
+![Пример API](https://github.com/mark47B/NP-Team_Task3-OpenAPI/blob/main/README_IMAGES/API_Example.png)
 
 
 <br/>
