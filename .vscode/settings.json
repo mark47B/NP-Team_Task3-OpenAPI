@@ -1,0 +1,40 @@
+{
+    "git.autofetch": true,
+    "python.envFile": "${workspaceFolder}/config/debug.env",
+    "python.languageServer": "Pylance",
+    "python.analysis.diagnosticMode": "workspace",
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.typeCheckingMode": "basic",
+    "python.analysis.inlayHints.variableTypes": true,
+    "python.analysis.inlayHints.functionReturnTypes": true,
+    "python.terminal.activateEnvironment": true,
+    "python.formatting.provider": "black",
+    "python.linting.pylintArgs": ["--rcfile=${workspaceFolder}/config/setup.cfg"],
+    "python.linting.enabled": true,
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Args": [
+        "--max-line-length=88",
+    // "--ignore=E402,F841,F401,E302,E305",
+        ],
+    "[python]": { 
+        "editor.defaultFormatter":"ms-python.black-formatter",
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+                "source.organizeImports": true,
+                "source.fixAll": true
+            },
+        },
+    "files.exclude": {
+        "**/__pycache__/**": true,
+    },
+    "files.watcherExclude": {
+                "**/.git/objects/**": true,
+                "**/.git/subtree-cache/**": true,
+                "**/node_modules/*/**": true,
+                "**/.hg/store/**": true,
+                "**/__pycache__/**": true,
+                "**/.venv-*/**": true,
+    },
+
+
+}

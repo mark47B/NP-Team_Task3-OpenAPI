@@ -1,0 +1,27 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "FastAPI :: DEBUG",
+            "type": "python",
+            "request": "launch",
+            "module": "uvicorn",
+            "console": "integratedTerminal",
+            "envFile": "${workspaceFolder}/.env",
+            "python": "${workspaceFolder}/.venv/bin/python3.10",
+            "cwd": "${workspaceFolder}",
+            "args": [
+              "app.main:app",
+              "--host",
+              "0.0.0.0"
+            ],
+            "jinja": true,
+            "justMyCode": true,
+            "presentation": {
+              "hidden": false,
+              "group": "api",
+              "order": 5
+            }
+        }
+    ]
+}
