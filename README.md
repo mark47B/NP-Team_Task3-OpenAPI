@@ -4,19 +4,16 @@
 
 ## Run ✈️
 
-- Clone the project
+- Разархивировать zip файл
 
-```bash
-  git clone https://github.com/mark47B/Simple-React-Chat.git
-```
-
+### В директории с проектом
 - Разворачиваем окружение Poetry
 
 ```bash
   poetry init
 ```
 
-- Создаём виртуальное окружение
+- Создаём виртуальное окружение и активируем его
 
 ```bash
   poetry shell
@@ -44,8 +41,8 @@
 
 - Открываем http://0.0.0.0:8000/docs
 
-```bash
-  uvicorn app.main:app --host 0.0.0.0 --port 8000
-```
+Пример тестовых данных
+![Пример API]([https://github.com/jon/coolproject/raw/master/image/image.png](https://github.com/mark47B/NP-Team_Task3-OpenAPI/blob/main/README_IMAGES/API_Example.png)https://github.com/mark47B/NP-Team_Task3-OpenAPI/blob/main/README_IMAGES/API_Example.png)
+
 
 <br/>
